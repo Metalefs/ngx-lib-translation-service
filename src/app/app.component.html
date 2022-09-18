@@ -1,0 +1,14 @@
+<h1>{{ 'general.myHeader' | translate }}</h1>
+
+<button mat-button (click)="changeLanguage()">{{ 'general.changeLanguage' | translate }}</button>
+<button mat-button (click)="reload()">{{ 'general.reloadLanguage' | translate }}</button>
+
+<h2>{{ 'AppComponent.login' | translate }}</h2>
+<h2>{{ 'AppComponent.logout' | translate }}</h2>
+
+<app-test></app-test>
+
+<lib-lib-component></lib-lib-component>
+
+<mat-paginator length="42" [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>

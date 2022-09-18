@@ -1,0 +1,7 @@
+{
+    "general": {
+        "myHeader": "My english header",
+        "changeLanguage": "Toggle language",
+        "reloadLanguage": "Reload language"
+    }
+}
